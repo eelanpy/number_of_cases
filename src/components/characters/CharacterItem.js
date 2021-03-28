@@ -1,18 +1,4 @@
 import React from 'react'
-// import axios from 'axios'
-
-// const result =  axios(
-//     `https://xdg5krknz9.execute-api.us-east-2.amazonaws.com/test/schools?requester=eelan`
-// )
-
-  
-// console.log(result.data)
-
-
-
-
-
-// console.log(result.data)
 
 const CharacterItem = ({ item }) => {
   console.log(item);
@@ -20,7 +6,7 @@ const CharacterItem = ({ item }) => {
     <div className='card'>
       <div className='card-inner'>
         <div className='card-front'>
-          <img src={item.img} alt=''  />
+          <img src={{ item.img }} alt=''  />
         </div>
         <div className={item.schoolRating}>
           
